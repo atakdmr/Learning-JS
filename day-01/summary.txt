@@ -1,0 +1,23 @@
+English Summary:
+
+This file contains a set of beginner JavaScript examples organized into class sections. It demonstrates:
+- Basic output with `console.log` and simple arithmetic (including a tax/KDV example).
+- Primitive data types: numbers, strings, booleans, `undefined`, and `null`.
+- Variable declaration and naming conventions (examples using camelCase and underscores).
+- String handling: concatenation, template literals, and many string methods (`toLowerCase`, `toUpperCase`, `length`, indexing, `slice`, `substring`, `replace`, `trim`, `indexOf`, `split`).
+- Example exercises: computing student math averages, checking pass/fail status, and parsing integers with `parseInt`.
+- URL construction from a course name by lowercasing and replacing spaces with hyphens, and boolean checks like `startsWith` and `includes`.
+
+The code is commented per class (Class 01..Class 06) and includes console outputs to show results of each operation.
+
+Türkçe Özet:
+
+Bu dosya, sınıf bölümleri halinde düzenlenmiş başlangıç seviyesinde JavaScript örnekleri içerir. İçerdiği konular:
+- `console.log` ile temel çıktı ve basit aritmetik (kdv örneği dahil).
+- Temel veri tipleri: sayılar, stringler, booleanlar, `undefined` ve `null`.
+- Değişken tanımlama ve isimlendirme kuralları (camelCase ve alt çizgi örnekleri).
+- String işlemleri: birleştirme, şablon dizeleri ve birçok string metodu (`toLowerCase`, `toUpperCase`, `length`, indeksleme, `slice`, `substring`, `replace`, `trim`, `indexOf`, `split`).
+- Örnek ödevler: öğrenci ortalamalarının hesaplanması, geçme/kalma durumunun kontrolü ve `parseInt` ile tam sayıya çevirme.
+- Kurs adından URL oluşturma (küçültme ve boşlukları tire ile değiştirme) ve `startsWith`, `includes` gibi boolean kontrolleri.
+
+Kod, Class 01..Class 06 şeklinde yorumlarla ayrılmıştır ve her işlemin sonucunu göstermek için `console.log` çıktıları içerir.
