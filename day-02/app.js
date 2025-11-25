@@ -22,7 +22,7 @@ final_1 = Math.floor(Math.random() * 100 + 1); //! 1 mean starts with 1 and floo
 // let product3 = 'Iphone 17';
 
 let products = ['Iphone 15', 'Iphone 16', 'Iphone 17'];
-let prices = [100, 200, 300];
+let prices = [100, 200, 300]; 
 let colors = ['Cherry', 'White', 'Green'];
 
 let final_2;
