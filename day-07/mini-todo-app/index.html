@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Todo App</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            font-family: Arial;
+        }
+
+        ul {
+            padding: 20px;
+            margin: 0;
+            border: 2px solid rgba(255, 73, 73, 0.527);
+            border-radius: 5px;
+            width: 300px;
+        }
+
+        #list li {
+            padding: 6px;
+            background: #eee;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            margin: 2px 0px;
+        }
+
+        button.delete {
+            background: rgb(173, 156, 156);
+            color: white;
+            border: none;
+            padding: 3px 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>my todo list</h1>
+
+        <input id="text" type="text" placeholder="add something...">
+        <button id="btn">add</button>
+
+        <ul id="list">
+            <li>first item <button class="del">X</button></li>
+
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
