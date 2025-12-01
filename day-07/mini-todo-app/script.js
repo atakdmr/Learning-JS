@@ -33,13 +33,13 @@ btn.addEventListener('click', function () {
     input.value = '';
 })
 
-list.addEventListener('click', function (e) {
-    if (e.target.classList.contains('del'))
-        e.target.parentElement.remove();
-});
-
 input.addEventListener('keyup', function (e) {
     if (e.key === 'Enter') {
         btn.click();
     }
+});
+
+list.addEventListener('click', function (e) {
+    if (e.target.classList.contains('del'))
+        e.target.parentElement.remove();
 });
